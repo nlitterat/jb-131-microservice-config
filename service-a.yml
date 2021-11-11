@@ -1,6 +1,9 @@
 server:
   port: 8001
 spring:
+  boot:
+    admin:
+      url: http://localhost:8089
   cloud:
     consul:
       discovery:
