@@ -2,9 +2,6 @@ server:
   port: 0
   
 spring:
-  boot:
-    admin:
-      url: http://localhost:8089
   cloud:
     consul:
       discovery:
@@ -19,9 +16,5 @@ spring:
           binder: kafka
           destination: cloudEX
 management:
-  endpoints:
-    web:
-     exposure:
-       include: *
   security: 
     enabled: false
