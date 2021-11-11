@@ -3,7 +3,8 @@ server:
 spring:
   boot:
     admin:
-      url: http://localhost:8089
+      client:
+        url: http://localhost:8089
   cloud:
     consul:
       discovery:
