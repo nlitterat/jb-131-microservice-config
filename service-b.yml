@@ -19,5 +19,9 @@ spring:
           binder: kafka
           destination: cloudEX
 management:
+  endpoints:
+    web:
+     exposure:
+       include: *
   security: 
     enabled: false
